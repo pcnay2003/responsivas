@@ -1,0 +1,35 @@
+array(15) 
+{ 
+	["id_responsiva"]=> string(1) "9" [
+	"id_empleado"]=> string(1) "2" 
+	["id_usuario"]=> string(1) "1" 
+	["id_almacen"]=> string(1) "3" 
+	["activa"]=> string(1) "S" 
+	["num_folio"]=> string(1) "9" 
+	["modalidad_entrega"]=> string(8) "Prestamo" -> OK
+	["num_ticket"]=> string(0) "" -> OK
+	["comentarios"]=> string(0) "" -> OK
+	["productos"]=> string(323) "[{
+		"id":"3",
+		"descripcion":"NombrePerifericoDos",
+		"cantidad":"1","stock":"20",
+		"precio":"16.00",
+		"total":"16"},{
+			"id":"5",
+			"descripcion":"NombrePerifericoTres",
+			"cantidad":"1",
+			"stock":"16",
+			"precio":"20.00",
+			"total":"20.00"},{
+			"id":"3",
+			"descripcion":"NombrePerifericoDos",
+			"cantidad":"1",
+			"stock":"98",
+			"precio":"16.00",
+			"total":"16.00"}]" 
+	["impuesto"]=> string(1) "0" 
+	["neto"]=> string(2) "52" 
+	["total"]=> string(2) "52" 
+	["fecha_asignado"]=> string(10) "2021-04-17" 
+	["fecha_devolucion"]=> string(10) "2021-09-24" 
+}

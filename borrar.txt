@@ -1,0 +1,75 @@
+[Tue Oct 19 10:39:39.150008 2021] [php7:error] [pid 11393] [client 104.129.198.7                                                                                                             1:62076] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datet                                                                                                             ime format: 1366 Incorrect integer value: '' for column `bd_responsivas`.`t_Prod                                                                                                             uctos`.`id_empleado` at row 1 in /var/www/html/responsivas/modelos/productos.mod                                                                                                             elo.php:351\nStack trace:\n#0 /var/www/html/responsivas/modelos/productos.modelo                                                                                                             .php(351): PDOStatement->execute()\n#1 /var/www/html/responsivas/controladores/r                                                                                                             esponsivas.controlador.php(133): ModeloProductos::mdlActualizarProducto('t_Produ                                                                                                             ctos', 'id_empleado', '', '1810')\n#2 /var/www/html/responsivas/vistas/modulos/c                                                                                                             ap-responsiva.php(254): ControladorResponsivas::ctrCrearResponsiva()\n#3 /var/ww                                                                                                             w/html/responsivas/vistas/plantilla.php(139): include('/var/www/html/r...')\n#4                                                                                                              /var/www/html/responsivas/controladores/plantilla.controlador.php(6): include('/                                                                                                             var/www/html/r...')\n#5 /var/www/html/responsivas/index.php(151): ControladorPla                                                                                                             ntilla::ctrPlantilla()\n#6 {main}\n  thrown in /var/www/html/responsivas/modelos                                                                                                             /productos.modelo.php on line 351, referer: https://www.miportalweb.org/responsi                                                                                                             vas/cap-responsiva
+
+
+
+
+
+
+1:62076] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datet                                                                                                             ime format: 1366 Incorrect integer value: '' for column `bd_responsivas`.`t_Prod                                                                                                             uctos`.`id_empleado` at row 1 in /var/www/html/responsivas/modelos/productos.mod                                                                                                             elo.php:351\nStack trace:\n#0 /var/www/html/responsivas/modelos/productos.modelo                                                                                                             .php(351): PDOStatement->execute()\n#1 /var/www/html/responsivas/controladores/r                                                                                                             esponsivas.controlador.php(133): ModeloProductos::mdlActualizarProducto('t_Produ                                                                                                             ctos', 'id_empleado', '', '1810')\n#2 /var/www/html/responsivas/vistas/modulos/c                                                                                                             ap-responsiva.php(254): ControladorResponsivas::ctrCrearResponsiva()\n#3 /var/ww                                                                                                             w/html/responsivas/vistas/plantilla.php(139): include('/var/www/html/r...')\n#4                                                                                                              /var/www/html/responsivas/controladores/plantilla.controlador.php(6): include('/                                                                                                             var/www/html/r...')\n#5 /var/www/html/responsivas/index.php(151): ControladorPla                                                                                                             ntilla::ctrPlantilla()\n#6 {main}\n  thrown in /var/www/html/responsivas/modelos                                                                                                             /productos.modelo.php on line 351, referer: https://www.miportalweb.org/responsi                                                                                                             vas/cap-responsiva
+
+
+
+
+$respuesta["productos"]
+[{ "id":"5", ==> Producto
+	"descripcion":"HEADSET",
+	"cantidad":"1",
+	"stock":"0",
+	"precio":"60.00",
+	"total":"60.00"
+	}]
+
+
+array(60) { 
+	["id_producto"]=> string(1) "2" 
+	[0]=> string(1) "2" ["id_telefonia"]=> string(1) "2" 
+	[1]=> string(1) "2" ["id_plan_tel"]=> string(1) "2" 
+	[2]=> string(1) "2" ["id_empleado"]=> string(1) "1" 
+	[3]=> string(1) "1" ["Imagen"]=> string(42) "vistas/img/productos/default/anonymous.png" 
+	[4]=> string(42) "vistas/img/productos/default/anonymous.png" 
+	["Cuantas_veces"]=> NULL [5]=> NULL 
+	["id_periferico"]=> string(1) "2" [6]=> string(1) "2" ["Periferico"]=> string(6) "LAPTOP" [7]=> string(6) "LAPTOP" ["Serial"]=> string(12) "CNC9483948DF" [8]=> string(12) "CNC9483948DF" ["num_tel"]=> string(10) "6643459034" [9]=> string(10) "6643459034" ["direcc_mac_tel"]=> string(0) "" [10]=> string(0) "" ["imei_tel"]=> string(0) "" [11]=> string(0) "" ["edo_tel"]=> string(9) "NO Aplica" [12]=> string(9) "NO Aplica" ["num_ip"]=> string(0) "" [13]=> string(0) "" ["comentarios"]=> string(36) "ESTE EQUIPO ES MAQUINA DE PRODUCCION" [14]=> string(36) "ESTE EQUIPO ES MAQUINA DE PRODUCCION" ["id_marca"]=> string(1) "1" [15]=> string(1) "1" ["id_almacen"]=> string(1) "1" [16]=> string(1) "1" ["id_modelo"]=> string(1) "1" [17]=> string(1) "1" ["cuenta"]=> string(0) "" [18]=> string(0) "" ["id_edo_epo"]=> string(1) "2" [19]=> string(1) "2" ["nomenclatura"]=> string(14) "MXTIJH2345433L" [20]=> string(14) "MXTIJH2345433L" ["Marca"]=> string(2) "HP" [21]=> string(2) "HP" ["Modelo"]=> string(16) "ELITEBOOK 845 G5" [22]=> string(16) "ELITEBOOK 845 G5" ["Edo_Epo"]=> string(11) "NO OPERABLE" [23]=> string(11) "NO OPERABLE" ["Stock"]=> string(2) "10" [24]=> string(2) "10" ["Precio_Venta"]=> string(6) "150.00" [25]=> string(6) "150.00" ["precio_compra"]=> string(6) "130.00" [26]=> string(6) "130.00" ["Nom_emp"]=> string(8) "DEPTO TI" [27]=> string(8) "DEPTO TI" ["Empleado"]=> string(8) "DEPTO TI" [28]=> string(8) "DEPTO TI" ["Ntid"]=> string(8) "23434504" [29]=> string(8) "23434504" }	
+	
+	SELECT tp.id_producto AS id_producto,tp.id_telefonia,tp.id_plan_tel,tp.id_empleado,tp.imagen_producto AS Imagen, tp.cuantas_veces AS Cuantas_veces, tperif.id_periferico,tperif.nombre AS Periferico,tp.num_serie AS Serial,tp.num_tel,tp.direcc_mac_tel,tp.imei_tel,tp.edo_tel,tp.num_ip,tp.comentarios,tp.id_marca,tp.id_almacen,tp.id_modelo,tp.cuenta,tp.id_edo_epo,tp.nomenclatura,tm.descripcion AS Marca,tmod.descripcion AS Modelo,tedoepo.descripcion AS Edo_Epo,tp.stock AS Stock,tp.precio_venta AS Precio_Venta, tp.precio_compra,emp.nombre AS Nom_emp,emp.apellidos AS Empleado, emp.ntid AS Ntid FROM t_Productos tp INNER JOIN t_Empleados emp ON tp.id_empleado = emp.id_empleado INNER JOIN t_Marca tm ON
+	
+	
+	<!-- Inicio para borrar  -->
+	
+	<section class="content-header">
+		<h1>
+			Crear Responsivas
+		</h1>
+
+		<ol class="breadcrumb">
+			<li><a href="inicio"><i class="fa fa-dashboard"></i> Inicio</a></li>
+			<li class="active">Crear Responsiva</li>
+		</ol>
+	</section>
+
+	<!-- Main content -->
+	<section class="content">
+		<div class="row">
+			<!-- Donde se captura el formulario -->
+			<!-- Se definen los puntos de quiebre de las pantallas -->
+			<div class="col-lg-5 col-xs-12">
+			<!-- En tamaños de pantalla grande se visualizara la lista de los productos 
+						Pero en dispositivos tablets en formato Vertical y dispositivos Mobiles se va a ocultar 
+			-->
+				<!-- Para colocar la linea verde hasta la mitad de la pantalla. -->
+				<div class="box box-success">
+				</div>
+				<!-- Para mostrar solamente en pantallas de escritorio de Desktop, para los demas tamaños se oculto -->
+				<div class="col-lg-7 hidden-md hidden-sm hidden-xs ">
+				
+				</div> <!-- <div class="col-lg-7 hidden-md hidden-sm hidden-xs "> -->
+
+			</div> <!-- <div class="col-lg-5 col-xs-12"> -->
+
+		</div> <!-- <div class="row"> -->
+
+	</section> <!-- <section class="content">-->
+	
+</div> <!-- <div class="content-wrapper"> -->
+
+
+
